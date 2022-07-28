@@ -16,7 +16,7 @@ In this project, Thomas High School's math and reading test scores would be repl
 - How is the district summary affected?
 
 
-
+[district_summary_initial](Resources/district_summary_initial.png)
 
 
 
