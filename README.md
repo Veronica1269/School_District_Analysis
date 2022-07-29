@@ -95,7 +95,7 @@ top_5_school_challenge](Resources/top_5_school_challenge.png)
 When reviewing the math and reading scores summary per school and grade, the change only affects the figures of Thomas High School, the numbers for the other schools remain unchanged.
 
 
-  #### Math Score(Original):
+  #### Math Score(Initial):
 
 math_score_original](Resources/math_score_original.png)
 
@@ -105,7 +105,7 @@ math_score_original](Resources/math_score_original.png)
 math_score_challenge](Resources/math_score_challenge.png)
 
 
-  #### Reading Score(Original):
+  #### Reading Score(Initial):
 reading_score_original](Resources/reading_score_original.png)
 
 
@@ -121,7 +121,7 @@ reading_score_challenge](Resources/reading_score_challenge.png)
 From the tables for school spending summary are shown below, there is not to much difference for the math and reading scores by school spending after replacing the 9th grade scores. The Thomas High School is in 6th place in both cases.
 
 
-  #### School Spending Summary (Original):
+  #### School Spending Summary (Initial):
   
 school_spending_original](Resources/school_spending_original.png)
 
@@ -140,7 +140,7 @@ The "Average Math Score", "Average Reading Score" and the "% Overall Passing" va
 
 
 
-  #### School Size Summary (Original):
+  #### School Size Summary (Initial):
   
 school_size_original](Resources/school_size_original.png)
 
@@ -157,7 +157,7 @@ school_size_challenge](Resources/school_size_challenge.png)
 The school type summary table for both cases are shown below. There is no difference between both analysis. 
 
 
-  #### School Type Summary (Original):
+  #### School Type Summary (Initial):
   
 school_type_original](Resources/school_type_original.png)
 
