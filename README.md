@@ -26,7 +26,7 @@ district_summary_initial](Resources/district_summary_initial.png)
 
 
 
-## Challenge Distrct Summary:
+### Challenge Distrct Summary:
 
 district_summary_challenge](Resources/district_summary_challenge.png)
 
@@ -39,13 +39,13 @@ district_summary_challenge](Resources/district_summary_challenge.png)
 Since only the math and reading scores of all the 9th grade students at Thomas High School are changed while the rest of the data is untouched, the results stayed the same for all the schools, except Thomas High School itself. The The school summary tables for Thomas High School in both analysis are shown below:
 
 
-## Initial School Summary for Thomas High School:
+### Initial School Summary for Thomas High School:
 
 school_summary_initial](Resources/school_summary_initial.png)
 
 
 
-## Challenge School Summary for Thomas High School:
+### Challenge School Summary for Thomas High School:
 
 school_summary_challenge](Resources/school_summary_challenge.png)
 
