@@ -22,16 +22,16 @@ In this project, Thomas High School's math and reading test scores would be repl
 - How is the district summary affected?
 
 
-As the district summary tables for initial analysis and the challenge analysis shown below, after changing to NaN the math and reading scores of all the 9th grade students at Thomas High School, there is not too much difference between the two summaries at district level. The "Average Math Score" changed by 0.1 points, while the "Average Reading Score" keeps the same in both cases. The total number of 9th Grade students at Thomas High School is 461, which represents 1.18% of the total students (39170). This percentage is too low to make a big difference on the results for the total school district.
+As the district summary tables for initial analysis and the challenge analysis shown below, after replacing the math and reading scores of all the 9th grade students at Thomas High School, there is not big difference between the two summaries at district level. The "Average Math Score" changed by 0.1 points, while the "Average Reading Score" keeps the same in both cases. The total number of 9th grade students at Thomas High School is 461, which represents 1.18% of the total students (39170). This percentage is too low to make a big difference on the results for the total school district.
 
 
-  #### Distrct Summary (Initial):
+  #### District Summary (Initial):
 
 ![district_summary_initial](Resources/district_summary_initial.png)
 
 
 
-  #### Distrct Summary (Challenge):
+  #### District Summary (Challenge):
 
 ![district_summary_challenge](Resources/district_summary_challenge.png)
 
@@ -42,13 +42,15 @@ As the district summary tables for initial analysis and the challenge analysis s
 - How is the school summary affected?
 
 
-Since only the math and reading scores of all the 9th grade students at Thomas High School are changed while the rest of the data is untouched, the results stayed the same for all the schools, except Thomas High School itself. 
+Since only the math and reading scores of 9th grade students at Thomas High School are changed while the rest of the data is untouched, the results stayed the same for all the schools, except Thomas High School itself. 
 
 
-There are two parts of school summary. The first part of analysis uses the "vlaue_count()" function to calculate the total number of students in Thomas High School, including the 9th grade students with "NaN" math and reading scores. However, when counting the number of student passing math/reading, the 9th students with "NaN" scores are ignored. Thus, the number of student passing math/reading is decreased comparing with original analysis. The passing percentage is calculated using the number of passing the math/reading devided by the total number of students. As a result, the value for "% Passing Reading", "% Passing Math" and "% Overall Passing" for Thomas High School are decreased significantly. The values for "Average Reading Score" and "Average Math Score" remained pretty much unchanged because the ".mean()" function in Pandas ignores the NaN values. 
+There are two parts for the study of school summary. The first part of analysis uses the "vlaue_count()" function to calculate the total number of students in Thomas High School, including the 9th grade students with "NaN" math and reading scores. However, when counting the number of students passing the math/reading, the 9th students with "NaN" scores are ignored. Thus, the number of students passing math/reading is decreased comparing with initial analysis. The passing percentage is calculated using the number of students passing the math/reading devided by the total number of students. As a result, the value for "% Passing Reading", "% Passing Math" and "% Overall Passing" for Thomas High School are decreased significantly. 
+
+The values for "Average Reading Score" and "Average Math Score" remained pretty much unchanged because the ".mean()" function in Pandas ignores the "NaN" values. 
 
 
-In the second part of challenge analysis for school summary. The "loc" Method is used to count the total number of student of Thomas High School in 10th grade, 11th grade and 12th grade. The total number of student, except the 9th grade students, is 1174. The number of student passing math/reading determined by filtering also ignores the 9th grade students who have "NaN" math and reading scores.  Thus, the total number of students and the number of passing students are both decreased, which will not affact the passing percentage too much according to the formula for the passing percentage: 
+In the second part of the school summary study, "loc" Method is used to count the total number of students at Thomas High School in 10th grade, 11th grade and 12th grade. The total number of students, except the 9th grade students, is 1174. The number of students passing math/reading determined by filtering also ignores the 9th grade students with "NaN" math and reading scores. Thus, the total number of students and the number of passing students are both decreased, which will not affact the passing percentage too much according to the formula for the passing percentage: 
 
   per_school_passing_math_percentage = per_school_passing_math / per_school_counts * 100
   per_school_passing_reading_percentage = per_school_passing_reading / per_school_counts * 100
@@ -78,9 +80,11 @@ The school summary tables for the Thomas High School from the original analysis 
 
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-The rest part of analysis is based on the passing rate we got in the second part of challenge analysis for school summary. The passing rate is not changed too much, so the Thomas High School’s performance is also not changed too much. The overall passing rate for Thomas High School only decreased 0.2%. 
 
-In the original analysis, the top five schools based on the overall passing rate are:
+The rest part of thsi project is based on the passing rate we got in the second part of school summary study. The passing rates are not changed too much, so the Thomas High School’s performance is also not changed too much. The overall passing rate for Thomas High School only decreased 0.2%. 
+
+
+In the initial analysis, the top five schools based on the overall passing rate are:
  
  
   #### Top Five School (Initial) :
@@ -88,7 +92,9 @@ In the original analysis, the top five schools based on the overall passing rate
 ![top_5_school_original](Resources/top_5_school_original.png)
 
 
+
 In the challenge analysis, the top five schools based on the overall passing rate are:
+
 
   #### Top Five School (Challenge) :
 
@@ -100,7 +106,8 @@ In the challenge analysis, the top five schools based on the overall passing rat
 
 - How does replacing the ninth-grade scores affect math and reading scores by grade?
 
-When reviewing the math and reading scores summary per school and grade, the change only affects the figures of Thomas High School, the numbers for the other schools remain unchanged.
+
+When reviewing the math and reading scores summary per school and grade, the change only affects the Thomas High School, the scores for other schools remain unchanged.
 
 
   #### Math Score (Initial):
@@ -128,7 +135,8 @@ When reviewing the math and reading scores summary per school and grade, the cha
 
 - How does replacing the ninth-grade scores affect math and reading scores by school spending?
 
-From the tables for school spending summary are shown below, there is not to much difference for the math and reading scores by school spending after replacing the 9th grade scores. The Thomas High School is in 6th place in both cases.
+
+From the tables for school spending summary, there is no big difference for the math and reading scores by school spending before and after replacing the 9th grade scores. The Thomas High School is in 6th place in both cases.
 
 
   #### School Spending Summary (Initial):
@@ -165,7 +173,8 @@ The "Average Math Score", "Average Reading Score" and the "% Overall Passing" va
 
 - How does replacing the ninth-grade scores affect math and reading scores by school type?
 
-The school type summary table for both cases are shown below. There is no difference between both analysis. 
+
+The school type summary table for both cases are shown below. There is no difference between both cases.
 
 
   #### School Type Summary (Initial):
@@ -190,3 +199,4 @@ In conclusion, the changes in the updated school district analysis after reading
 - The total number of students passing math exam at Thomas High School is decreased
 - The total number of students passing reading exam at Thomas High School is decreased
 - The overall passing rate for Thomas High School is decreased
+- The average math score is increased a little bit 
