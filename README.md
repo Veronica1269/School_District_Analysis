@@ -20,15 +20,15 @@ In this project, Thomas High School's math and reading test scores would be repl
 As the district summary tables for initial analysis and the challenge analysis shown below, after changing to NaN the math and reading scores of all the 9th grade students at Thomas High School, there is not too much difference between the two summaries at district level. The Average Math Score changed by 0.1 points, while the Average Reading Score keeps the same in both cases. The total number of 9th Grade students at Thomas High School is 461, which represents 1.18% of the total students (39170). This percentage is too low to make a big difference on the results for the total school district.
 
 
-#### Distrct Summary (Initial):
+  #### Distrct Summary (Initial):
 
-district_summary_initial](Resources/district_summary_initial.png)
+![district_summary_initial](Resources/district_summary_initial.png)
 
 
 
   #### Distrct Summary (Challenge):
 
-district_summary_challenge](Resources/district_summary_challenge.png)
+![district_summary_challenge](Resources/district_summary_challenge.png)
 
 
 
@@ -54,17 +54,17 @@ The school summary tables for the Thomas High School from the original analysis 
 
   #### School Summary (Initial) for Thomas High School:
 
-school_summary_initial](Resources/school_summary_initial.png)
+![school_summary_initial](Resources/school_summary_initial.png)
 
 
   #### School Summary (Challenge, Part 1) for Thomas High School:
 
-school_summary_challenge](Resources/school_summary_challenge.png)
+![school_summary_challenge](Resources/school_summary_challenge.png)
 
 
   #### School Summary (Challenge, Part 2) for Thomas High School:
 
-school_summary_challenge_loc](Resources/school_summary_challenge_loc.png)
+![school_summary_challenge_loc](Resources/school_summary_challenge_loc.png)
 
 
 
@@ -78,14 +78,14 @@ In the original analysis, the top five schools based on the overall passing rate
  
   #### Top Five School(Initial) :
 
-top_5_school_original](Resources/top_5_school_original.png)
+![top_5_school_original](Resources/top_5_school_original.png)
 
 
 In the challenge analysis, the top five schools based on the overall passing rate are:
 
   #### Top Five School(Challenge) :
 
-top_5_school_challenge](Resources/top_5_school_challenge.png)
+![top_5_school_challenge](Resources/top_5_school_challenge.png)
 
 
 
@@ -97,21 +97,21 @@ When reviewing the math and reading scores summary per school and grade, the cha
 
   #### Math Score(Initial):
 
-math_score_original](Resources/math_score_original.png)
+![math_score_original](Resources/math_score_original.png)
 
 
   #### Math Score(Challenge):
 
-math_score_challenge](Resources/math_score_challenge.png)
+![math_score_challenge](Resources/math_score_challenge.png)
 
 
   #### Reading Score(Initial):
-reading_score_original](Resources/reading_score_original.png)
+![reading_score_original](Resources/reading_score_original.png)
 
 
   #### Reading Score(Challenge):
 
-reading_score_challenge](Resources/reading_score_challenge.png)
+![reading_score_challenge](Resources/reading_score_challenge.png)
 
 
 
@@ -123,12 +123,12 @@ From the tables for school spending summary are shown below, there is not to muc
 
   #### School Spending Summary (Initial):
   
-school_spending_original](Resources/school_spending_original.png)
+![school_spending_original](Resources/school_spending_original.png)
 
 
   #### School Spending Summary (Challenge):
   
-school_spending_challenge](Resources/school_spending_challenge.png)
+![school_spending_challenge](Resources/school_spending_challenge.png)
 
 
 
@@ -142,12 +142,12 @@ The "Average Math Score", "Average Reading Score" and the "% Overall Passing" va
 
   #### School Size Summary (Initial):
   
-school_size_original](Resources/school_size_original.png)
+![school_size_original](Resources/school_size_original.png)
 
 
   #### School Size Summary (Challenge):
   
-school_size_challenge](Resources/school_size_challenge.png)
+![school_size_challenge](Resources/school_size_challenge.png)
 
 
 
@@ -159,12 +159,12 @@ The school type summary table for both cases are shown below. There is no differ
 
   #### School Type Summary (Initial):
   
-school_type_original](Resources/school_type_original.png)
+![school_type_original](Resources/school_type_original.png)
 
 
   #### School Type Summary (Challenge):
   
-school_type_challenge](Resources/school_type_challenge.png)
+![school_type_challenge](Resources/school_type_challenge.png)
 
 
 
