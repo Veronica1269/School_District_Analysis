@@ -26,7 +26,7 @@ district_summary_initial](Resources/district_summary_initial.png)
 
 
 
-#### Distrct Summary (Challenge):
+  #### Distrct Summary (Challenge):
 
 district_summary_challenge](Resources/district_summary_challenge.png)
 
@@ -39,13 +39,13 @@ district_summary_challenge](Resources/district_summary_challenge.png)
 Since only the math and reading scores of all the 9th grade students at Thomas High School are changed while the rest of the data is untouched, the results stayed the same for all the schools, except Thomas High School itself. The The school summary tables for Thomas High School in both analysis are shown below:
 
 
-#### School Summary (Initial) for Thomas High School:
+  #### School Summary (Initial) for Thomas High School:
 
 school_summary_initial](Resources/school_summary_initial.png)
 
 
 
-#### School Summary (Challenge) for Thomas High School:
+  #### School Summary (Challenge) for Thomas High School:
 
 school_summary_challenge](Resources/school_summary_challenge.png)
 
@@ -62,7 +62,7 @@ The functions for the passing percentage are:
 However, if we use the "loc" method to calculate the passing percentage in challenge analysis, the result will not change too much comparing with the original analysis, since the "loc" method ignores the NaN values when counting the number of students. Thus, the total number of total students and the number of passing students will both decreased, which will not affact the passing percentage too much.
 
 
-#### School Summary with "loc" Method for Thomas High School:
+  #### School Summary (Challenge) with "loc" Method for Thomas High School:
 
 school_summary_challenge_loc](Resources/school_summary_challenge_loc.png)
 
@@ -70,6 +70,10 @@ school_summary_challenge_loc](Resources/school_summary_challenge_loc.png)
 
 
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+
+Since the rest part of analysis is based on the passing rate we got using "loc" method, The Thomas High School’s performance is not changed too much. 
+
+In the original analysis, the top five schools
 
 
 
