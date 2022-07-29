@@ -197,6 +197,6 @@ The school type summary table for both cases are shown below. There is no differ
 In conclusion, the changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs are:
 
 - The passing percentage for math exam at Thomas High School is decreased
-- The total number of students passing reading exam at Thomas High School is decreased
-- The overall passing rate for Thomas High School is decreased
+- The number of students passing reading exam at Thomas High School is decreased
+- The overall passing percentage for Thomas High School is decreased
 - The average math score is increased a little
